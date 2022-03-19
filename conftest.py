@@ -26,4 +26,6 @@ def browser(request):
     yield browser
     print('quit browser')
     time.sleep(30)
+    # Пауза для визуальной проверки надписи на кнопке "Добавить в корзину" ("Ajouter au panier") при запуске
+    # test_items.py на французком языке (--language=fr)
     browser.quit()
